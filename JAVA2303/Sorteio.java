@@ -8,8 +8,8 @@ public static void main(String[]args)
     Random gerador = new Random();
     int c = 1;
     int stora = 0;
-    int menor = c;
-    int maior = c;
+    int menor = 100;
+    int maior = 0;
 
     while (c <= 1000) {
         int n = 1 + gerador.nextInt(100);
